@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="quiz.css"> -->
+    <style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100vw;
+    height:100vh;
+    background-color:#341f97;
+}
+     .award-icon{
+        color: #fff;
+        font-size: 300px;
+     
+    }
+    @font-face {
+        font-family: adil;
+        src: url(./font/Ysabeau-Italic-VariableFont_wght.ttf);
+    }
+     .user_name,
+     .user_points,
+     .user_time{
+       color: #fff;
+       text-align: center;
+       margin-top: 5px;
+       /* font-size: 19px;  */
+       font-family: adil;
+       text-transform: capitalize;
+    }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="box">
+        <i class="fas fa-award award-icon"></i>
+            <h3 class="user_name">Well DOne! Muhammad Adil</h3>
+            <p class="user_points">Your Pionts: <span class="pionts">30</span>  </p>
+            <p class="user_time">Time: <span class="time">0 sec 2min</span>  </p>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/f17a577903.js" crossorigin="anonymous"></script>
+</body>
+</html>

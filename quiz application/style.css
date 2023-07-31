@@ -1,0 +1,125 @@
+.wrapper {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('./images/6361475.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.wrapper:hover {
+    /* transform: scale(1; */
+    transition: all 0.9s;
+}
+
+.input-group {
+    height: 500px;
+    width: 600px;
+    background-color: rgba(90, 165, 12, 0.3);
+    display: flex;
+    flex-direction: column;
+    padding: 30px 40px;
+    border-radius: 50px;
+    box-shadow: 5px 8px 1px rgba(0, 0, 12, 0.3);
+}
+
+.input-group:hover {
+    border-radius: 0px;
+    transition: all 0.8s;
+}
+
+span {
+    color: #fff;
+}
+
+.password {
+    height: 40px;
+    width: 300px;
+    border: 1px solid gray;
+    font-weight: 600;
+    font-size: 18px;
+
+}
+
+.email {
+    height: 40px;
+    width: 300px;
+    font-size: 18px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    font-weight: 600;
+
+}
+
+.password:focus {
+    background-color: black;
+    border-radius: 20px;
+    border: 1px solid white;
+
+    color: #fff;
+}
+
+.email:focus {
+    border: 1px solid white;
+    background-color: black;
+    border-radius: 20px;
+    color: #fff;
+}
+
+
+
+#btn {
+    width: 430px;
+    margin: 0px 10px;
+    border: none;
+    border-radius: 8px;
+    height: 40px;
+    font-size: 24px;
+    font-weight: 600;
+    display: inline-block;
+    margin: 10px auto;
+}
+
+#btn:hover {
+    background-color: blue;
+    color: #fff;
+    transition: all 0.7s;
+}
+
+h2 {
+    color: #fff;
+    font-weight: 600;
+    padding: 10px 10px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+
+
+
+}
+
+.links .button a {
+    padding: 20px;
+    color: #fff;
+    text-transform: capitalize;
+
+}
+
+.button {
+    display: flex;
+    align-items: flex-start;
+    padding-bottom: 50px;
+    margin-top: -50px;
+
+
+}
+
+.links .button a:hover {
+    color: red;
+    transition: all 0.4s;
+}
